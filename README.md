@@ -9,6 +9,6 @@ Simply fill out our **short survey** answering questions about your specific hou
 
 ## We are here to help you save! 
 If you have any questions, concerns, or suggestions, ***we would love to hear from you***!
-    - **Office hours:** 7:00AM - 7:00PM PST Monday - Sunday. 
-    - **Email:** contact.hecsap@fake-email.com
-    - **Phone number:** (541) OUR - PLAN
+    * **Office hours:** 7:00AM - 7:00PM PST Monday - Sunday. 
+    * **Email:** contact.hecsap@fake-email.com
+    * **Phone number:** (541) OUR - PLAN
