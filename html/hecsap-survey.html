@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home Energy Cost Saving Action Plan | HECSAP</title>
+    <title>Get your very own HECSAP | Survey</title>
   </head>
   <body>
     <!-- Navigation bar below -->
@@ -33,5 +33,170 @@
         >
       </div>
     </nav>
+
+    <!-- Survey below -->
+    <h2>
+      The more we know, the more we can help you save on energy costs!
+    </h2>
+    <!-- Will possibly need to update this later because just copied it from the other survey -->
+    <form
+     class="form-wrapper-style"
+      action="/survey-handling-url"
+      method="post"
+    >
+
+    <fieldset>
+        <legend class="survey-title">HECSAP Survey</legend>
+
+        <!-- Div containing survey below -->
+        <div class="hecsap-survey-wrapper">
+
+            <!-- User input: FIRST NAME -->
+          <div class="first-name">
+            <label class="first-name__label" for="firstName">First Name:</label>
+            <input
+              class="first-name__input"
+              type="text"
+              id="firstName"
+              name="first_name"
+            />
+          </div>
+
+           <!-- User input: LAST NAME -->
+          <div class="last-name">
+            <label class="last-name__label" for="lastName">Last Name:</label>
+            <input
+              class="last-name__input"
+              type="text"
+              id="lastName"
+              name="last_name"
+            />
+          </div>
+
+          <!-- User input: EMAIL ADDRESS -->
+          <div class="email-address">
+            <label class="email-address__label" for="email">Email:</label>
+            <input
+              class="email-address__input"
+              type="email"
+              id="email"
+              name="email_address"
+            />
+          </div>
+
+          <!-- User input: ZIP CODE -->
+          <div class="zip-code">
+            <label class="zip-code__label" for="zipCode">Zip Code:</label>
+            <input
+              class="zip-code__input"
+              type="text"
+              id="zipCode"
+              name="zip_code"
+            />
+          </div>
+
+          <!-- User input: ENERGY PROVIDER -->
+          <div class="energy-provider">
+            <label class="energy-provider__label" for="energyProvider">Energy Provider?:</label>
+            <input
+              class="energy-provider__input"
+              type="text"
+              id="energyProvider"
+              name="energy_provider"
+            />
+          </div>
+
+          <!-- User input: HOME ENERGY TYPE(S)? -->
+
+          <div class="energy-type">
+            <label class="energy-type__label" for="energyType">Your Energy Types(Electric, Gas, or Both)?:</label>
+            <input
+              class="energy-type__input"
+              type="text"
+              id="energyType"
+              name="energy_type"
+            />
+          </div>
+
+          <!-- User input: SIZE OF HOME'S LIVABLE SPACE? -->
+
+          <div class="square-feet">
+            <label class="square-feet__label" for="squareFeet">How Many Square Feet Is Your Home's Livable Space?:</label>
+            <input
+              class="square-feet__input"
+              type="text"
+              id="squareFeet"
+              name="square_feet"
+            />
+          </div>
+
+          <!-- User input: SOLAR PANELS ON HOME? -->
+
+          <div class="solar-panels">
+            <label class="solar-panels__label" for="solarPanels">Does Your Home Have Solar Panels?:</label>
+            <input
+              class="solar-panels__input"
+              type="text"
+              id="solarPanels"
+              name="solar_panels"
+            />
+          </div>
+
+          <!-- User input: MONTH/COST HIGHEST BILL? -->
+
+          <div class="high-bill">
+            <label class="high-bill__label" for="highBill">Month/Cost Of The Highest Bill In The Last 12 Months?:</label>
+            <input
+              class="high-bill__input"
+              type="text"
+              id="highBill"
+              name="high_bill"
+            />
+          </div>
+
+          <!-- User input: MONTH/COST LOWEST BILL? -->
+
+          <div class="low-bill">
+            <label class="low-bill__label" for="lowBill">Month/Cost Of The Lowest Bill In The Last 12 Months?:</label>
+            <input
+              class="low-bill__input"
+              type="text"
+              id="lowBill"
+              name="low_bill"
+            />
+          </div>
+
+           <!-- User input: SPACE FOR ADDITIONAL COMMENTS -->
+
+          <div class="comment-section">
+            <label class="comment-section__label" for="comments"
+              >Additional Comments:</label
+            >
+            <textarea
+              class="comment-section__textarea"
+              id="comments"
+              name="comments"
+            ></textarea>
+          </div>
+
+            <!-- User input: CHECKBOX FOR ACCEPTING TERMS AND CONDITIONS -->
+            <div class="accept-conditions">
+              <label class="accept-conditions__label" for="termsAndConditions"
+                >Agree To Terms & Conditions</label
+              >
+              <input
+                class="accept-conditions__input"
+                type="checkbox"
+                id="termsAndConditions"
+                name="terms_and_conditions"
+              />
+            </div>
+
+            <!-- Get HECSAP button -->
+          <div class="submit-button">
+            <button class="submit-button__button" type="submit">Get Your HECSAP</button>
+          </div>
+        </div>
+    </fieldset>
   </body>
 </html>
