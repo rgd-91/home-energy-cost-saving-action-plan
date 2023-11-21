@@ -53,7 +53,7 @@ We're here to help! If you have any questions, comments, or concerns, please don
 
 - https://www.cnet.com/pictures/here-are-23-ways-to-save-on-your-electric-bills-right-now/11/
 
-_ https://www.usa.gov/help-with-energy-bills
+_ https://www.usa.gov/help-with-energy-bills/
 
 _ https://www.cnet.com/home/energy-and-utilities/8-easy-and-free-ways-to-save-money-on-your-gas-electric-and-water-bills/
 
