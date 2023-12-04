@@ -8,60 +8,47 @@
   </head>
   <body class="page-container">
 
-    <!-- Top two buttons -->
-    <nav class="top-two-buttons">
-      <div>
-        <button>
+    <header>
+      <!-- Navigation bar below -->
+
+      <nav class="nav-bar">
+        <div>
           <a
-            href="http://127.0.0.1:5500/hecsap-folder/hecsap-survey.html"
-            style="text-decoration: none; color: white"
-            >HECSAP</a
+            class="about-us-page"
+            href="http://127.0.0.1:5500/hecsap-folder/index.html"
+            >About Us</a
           >
-        </button>
-      </div>
+        </div>
 
-      <div>
-        <button>Sign in</button>
-      </div>
-    </nav>
+        <div>
+          <a
+            class="free-hecsap-page"
+            href="http://127.0.0.1:5500/hecsap-folder/hecsap-survey.html"
+            >Free HECSAP</a
+          >
+        </div>
 
-    <!-- Navigation bar below -->
+        <div>
+          <a
+            class="more-support-page"
+            href="http://127.0.0.1:5500/hecsap-folder/more-support.html"
+            >More Support</a
+          >
+        </div>
 
-    <nav class="nav-bar">
-      <div>
-        <a class="about-us-page" href="http://127.0.0.1:5500/hecsap-folder/index.html"
-          >About Us</a
-        >
-      </div>
-
-      <div>
-        <a
-          class="free-hecsap-page"
-          href="http://127.0.0.1:5500/hecsap-folder/hecsap-survey.html"
-          >Free HECSAP</a
-        >
-      </div>
-
-      <div>
-        <a
-          class="more-support-page"
-          href="http://127.0.0.1:5500/hecsap-folder/more-support.html"
-          >More Support</a
-        >
-      </div>
-
-      <div>
-        <a
-          class="cost-saving-tips-page"
-          href="http://127.0.0.1:5500/hecsap-folder/saving-tips.html"
-          >Cost Saving Tips</a
-        >
-      </div>
-    </nav>
+        <div>
+          <a
+            class="cost-saving-tips-page"
+            href="http://127.0.0.1:5500/hecsap-folder/saving-tips.html"
+            >Cost Saving Tips</a
+          >
+        </div>
+      </nav>
+    </header>
 
     <!-- Survey below -->
-    <h2>
-      The more we know, the more we can help you save on energy costs!
+    <h2 class="heading-style">
+      Help Us Get To Know Your Energy Cost Saving Opportunities
     </h2>
     <!-- Will possibly need to update this later because just copied it from the other survey -->
     <form
@@ -78,7 +65,7 @@
 
             <!-- User input: FIRST NAME -->
           <div class="first-name">
-            <label class="first-name__label" for="firstName">First Name:</label>
+            <label class="first-name__label required-input" for="firstName">First Name:</label>
             <input
               class="first-name__input"
               type="text"
@@ -89,7 +76,7 @@
 
            <!-- User input: LAST NAME -->
           <div class="last-name">
-            <label class="last-name__label" for="lastName">Last Name:</label>
+            <label class="last-name__label required-input" for="lastName">Last Name:</label>
             <input
               class="last-name__input"
               type="text"
@@ -100,7 +87,7 @@
 
           <!-- User input: EMAIL ADDRESS -->
           <div class="email-address">
-            <label class="email-address__label" for="email">Email:</label>
+            <label class="email-address__label required-input" for="email">Email:</label>
             <input
               class="email-address__input"
               type="email"
@@ -111,7 +98,7 @@
 
           <!-- User input: ZIP CODE -->
           <div class="zip-code">
-            <label class="zip-code__label" for="zipCode">Zip Code:</label>
+            <label class="zip-code__label required-input" for="zipCode">Zip Code:</label>
             <input
               class="zip-code__input"
               type="text"
@@ -122,72 +109,91 @@
 
           <!-- User input: ENERGY PROVIDER -->
           <div class="energy-provider">
-            <label class="energy-provider__label" for="energyProvider">Energy Provider?:</label>
+            <label class="energy-provider__label required-input" for="energyProvider">Energy Provider:</label>
             <input
               class="energy-provider__input"
               type="text"
               id="energyProvider"
               name="energy_provider"
+              placeholder="Utility company?"
             />
           </div>
 
           <!-- User input: HOME ENERGY TYPE(S)? -->
 
           <div class="energy-type">
-            <label class="energy-type__label" for="energyType">Your Energy Types(Electric, Gas, or Both)?:</label>
+            <label class="energy-type__label required-input" for="energyType">Energy Type:</label>
             <input
               class="energy-type__input"
               type="text"
               id="energyType"
               name="energy_type"
+              placeholder="Electric, Gas, or Both?"
             />
           </div>
 
           <!-- User input: SIZE OF HOME'S LIVABLE SPACE? -->
 
           <div class="square-feet">
-            <label class="square-feet__label" for="squareFeet">How Many Square Feet Is Your Home's Livable Space?:</label>
+            <label class="square-feet__label required-input" for="squareFeet">Square Feet?:</label>
             <input
               class="square-feet__input"
               type="text"
               id="squareFeet"
               name="square_feet"
+              placeholder="Square Feet Of Home?"
             />
           </div>
 
           <!-- User input: SOLAR PANELS ON HOME? -->
 
           <div class="solar-panels">
-            <label class="solar-panels__label" for="solarPanels">Does Your Home Have Solar Panels?:</label>
+            <label class="solar-panels__label required-input" for="solarPanels">Existing Solar Panels?:</label>
             <input
               class="solar-panels__input"
               type="text"
               id="solarPanels"
               name="solar_panels"
+              placeholder="Yes/No"
+            />
+          </div>
+
+          <!-- Have you lived in your home for the last 12 months? -->
+
+          <div class="months-in-home">
+            <label class="months-in-home__label required-input" for="highBill">Have You Lived In Your Home For The Last 12 months?:</label>
+            <input
+              class="months-in-home__input"
+              type="text"
+              id="inHome"
+              name="in_home"
+              placeholder="Yes/No"
             />
           </div>
 
           <!-- User input: MONTH/COST HIGHEST BILL? -->
 
           <div class="high-bill">
-            <label class="high-bill__label" for="highBill">Month/Cost Of The Highest Bill In The Last 12 Months?:</label>
+            <label class="high-bill__label required-input" for="highBill">Month/Cost Of The Highest Bill In The Last 12 Months?:</label>
             <input
               class="high-bill__input"
               type="text"
               id="highBill"
               name="high_bill"
+              placeholder="Ex: July/$478.00"
             />
           </div>
 
           <!-- User input: MONTH/COST LOWEST BILL? -->
 
           <div class="low-bill">
-            <label class="low-bill__label" for="lowBill">Month/Cost Of The Lowest Bill In The Last 12 Months?:</label>
+            <label class="low-bill__label required-input" for="lowBill">Month/Cost Of The Lowest Bill In The Last 12 Months?:</label>
             <input
               class="low-bill__input"
               type="text"
               id="lowBill"
               name="low_bill"
+              placeholder="Ex: February/$90.00"
             />
           </div>
 
@@ -206,7 +212,7 @@
 
             <!-- User input: CHECKBOX FOR ACCEPTING TERMS AND CONDITIONS -->
             <div class="accept-conditions">
-              <label class="accept-conditions__label" for="termsAndConditions"
+              <label class="accept-conditions__label required-input" for="termsAndConditions"
                 >Agree To Terms & Conditions</label
               >
               <input

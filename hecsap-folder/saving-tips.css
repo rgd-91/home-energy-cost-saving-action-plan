@@ -3,12 +3,3 @@
   background-color: black;
   box-sizing: border-box;
 }
-/* Top menu bar with 4 options to choose from, each a link to a different part of the theoretical website. */
-.top-two-buttons {
-  box-sizing: border-box;
-  width: 100%;
-  border: 7px;
-  padding: 7px;
-  display: flex;
-  justify-content: space-between;
-}
