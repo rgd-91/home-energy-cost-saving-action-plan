@@ -8,7 +8,7 @@
 /* Takes away the underline underneath the navigation links(About Us, Free HECSAP, More Support, Cast Saving Tips) */
 a {
   text-decoration: none;
-  /* color: white; */
+  color: black;
 }
 
 /* Nav bar, horizontally aligned in a single row */
