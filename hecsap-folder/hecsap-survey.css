@@ -32,3 +32,17 @@ heading-style {
   content: " *";
   color: red;
 }
+
+.hecsap-survey-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.left-group-questions,
+.right-group-questions {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
