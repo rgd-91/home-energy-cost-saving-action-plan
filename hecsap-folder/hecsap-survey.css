@@ -23,26 +23,50 @@ a {
   border-right: 0px;
 }
 
-/* Center the survey on the webpage */
-
-heading-style {
-}
+/* Causes there to be an asterisk symbol after all input fields the user is required to fill out in the survey */
 
 .required-input:after {
   content: " *";
   color: red;
 }
 
-.hecsap-survey-wrapper {
+/* Causes the top 8 label/input element pairs to be displayed in a grid, 2 columns by 4 rows */
+
+.first-group-section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(4, 1fr);
   gap: 10px;
 }
 
-.left-group-questions,
-.right-group-questions {
+/* causes the label to be vertically centered above the input for the first 8 label/input element pairs, and also does the same with the follow 4 label/input element pairs */
+
+.column-label-input,
+.row-label-input,
+.comment-section {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 2px;
+}
+
+/* This caused the two elements at the bottom of the survey to be grouped into a single row */
+.third-group-section {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+/* This ceneters the bottom two elements within the survey */
+.final-two-elements {
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+/* This displays the heading in a block and centers it */
+.heading-style {
+  display: block;
+  text-align: center;
 }

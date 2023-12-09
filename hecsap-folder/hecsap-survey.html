@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="hecsap-survey.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Get your very own HECSAP | Survey</title>
+    <title>HECSAP | Survey</title>
   </head>
   <body class="page-container">
 
@@ -63,8 +63,9 @@
         <!-- Div containing survey below -->
         <div class="hecsap-survey-wrapper">
 
-          <!-- User input: FIRST NAME -->
-          <div class="first-name">
+          <section class="first-group-section">
+            <!-- User input: FIRST NAME -->
+          <div class="first-name column-label-input">
             <label class="first-name__label required-input" for="firstName">First Name:</label>
             <input
               class="first-name__input"
@@ -75,7 +76,7 @@
           </div>
 
            <!-- User input: LAST NAME -->
-          <div class="last-name">
+          <div class="last-name column-label-input">
             <label class="last-name__label required-input" for="lastName">Last Name:</label>
             <input
               class="last-name__input"
@@ -86,7 +87,7 @@
           </div>
 
           <!-- User input: EMAIL ADDRESS -->
-          <div class="email-address">
+          <div class="email-address column-label-input">
             <label class="email-address__label required-input" for="email">Email:</label>
             <input
               class="email-address__input"
@@ -97,7 +98,7 @@
           </div>
 
           <!-- User input: ZIP CODE -->
-          <div class="zip-code">
+          <div class="zip-code column-label-input">
             <label class="zip-code__label required-input" for="zipCode">Zip Code:</label>
             <input
               class="zip-code__input"
@@ -108,7 +109,7 @@
           </div>
 
           <!-- User input: ENERGY PROVIDER -->
-          <div class="energy-provider">
+          <div class="energy-provider column-label-input">
             <label class="energy-provider__label required-input" for="energyProvider">Energy Provider:</label>
             <input
               class="energy-provider__input"
@@ -121,7 +122,7 @@
 
           <!-- User input: HOME ENERGY TYPE(S)? -->
 
-          <div class="energy-type">
+          <div class="energy-type column-label-input">
             <label class="energy-type__label required-input" for="energyType">Energy Type:</label>
             <input
               class="energy-type__input"
@@ -134,7 +135,7 @@
 
           <!-- User input: SIZE OF HOME'S LIVABLE SPACE? -->
 
-          <div class="square-feet">
+          <div class="square-feet column-label-input">
             <label class="square-feet__label required-input" for="squareFeet">Square Feet?:</label>
             <input
               class="square-feet__input"
@@ -147,7 +148,7 @@
 
           <!-- User input: SOLAR PANELS ON HOME? -->
 
-          <div class="solar-panels">
+          <div class="solar-panels column-label-input">
             <label class="solar-panels__label required-input" for="solarPanels">Existing Solar Panels?:</label>
             <input
               class="solar-panels__input"
@@ -157,10 +158,12 @@
               placeholder="Yes/No"
             />
           </div>
+          </section>
 
-          <!-- Have you lived in your home for the last 12 months? -->
+          <section class="second-group-section">
+            <!-- Have you lived in your home for the last 12 months? -->
 
-          <div class="months-in-home">
+          <div class="months-in-home row-label-input">
             <label class="months-in-home__label required-input" for="highBill">Have You Lived In Your Home For The Last 12 months?:</label>
             <input
               class="months-in-home__input"
@@ -173,7 +176,7 @@
 
           <!-- User input: MONTH/COST HIGHEST BILL? -->
 
-          <div class="high-bill">
+          <div class="high-bill row-label-input">
             <label class="high-bill__label required-input" for="highBill">Month/Cost Of The Highest Bill In The Last 12 Months?:</label>
             <input
               class="high-bill__input"
@@ -186,7 +189,7 @@
 
           <!-- User input: MONTH/COST LOWEST BILL? -->
 
-          <div class="low-bill">
+          <div class="low-bill row-label-input">
             <label class="low-bill__label required-input" for="lowBill">Month/Cost Of The Lowest Bill In The Last 12 Months?:</label>
             <input
               class="low-bill__input"
@@ -196,10 +199,11 @@
               placeholder="Ex: February/$90.00"
             />
           </div>
+          </section>
 
-           <!-- User input: SPACE FOR ADDITIONAL COMMENTS -->
 
-          <div class="comment-section">
+          <section class="comment-section">
+            <div class="comment-section">
             <label class="comment-section__label" for="comments"
               >Additional Comments:</label
             >
@@ -209,9 +213,12 @@
               name="comments"
             ></textarea>
           </div>
+          </section>
+
+          <section class="third-group-section">
 
             <!-- User input: CHECKBOX FOR ACCEPTING TERMS AND CONDITIONS -->
-            <div class="accept-conditions">
+            <div class="accept-conditions final-two-elements">
               <label class="accept-conditions__label required-input" for="termsAndConditions"
                 >Agree To Terms & Conditions</label
               >
@@ -224,9 +231,12 @@
             </div>
 
             <!-- Get HECSAP button -->
-          <div class="submit-button">
-            <button class="submit-button__button" type="submit">Get Your HECSAP</button>
+          <div class="submit-button final-two-elements">
+            <button class="submit-button__button" type="submit"><a href="http://127.0.0.1:5500/hecsap-folder/hecsap-thank-you-page.html"><strong>Get Your HECSAP</strong></a></button>
+
+
           </div>
+          </section>
         </div>
     </fieldset>
   </body>
