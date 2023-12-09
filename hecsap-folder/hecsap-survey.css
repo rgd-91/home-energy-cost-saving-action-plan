@@ -70,3 +70,9 @@ a {
   display: block;
   text-align: center;
 }
+
+/* Bolds The "Get Your HECSAP text" */
+
+.submit-button__button {
+  font-weight: 600;
+}
