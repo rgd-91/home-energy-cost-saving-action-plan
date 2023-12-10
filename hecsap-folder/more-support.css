@@ -16,7 +16,21 @@
   border-right: 0px;
 }
 
+/* styles the h1, so far, makes the text sky blue, possible idea, change font of h1 so that it's different than h2 font? */
+h1 {
+  color: skyblue;
+}
+/* Styles the h2, so far, makes the text white */
+h2 {
+  color: green;
+}
+
+/* Causes all link text to be colored green, and removes the underline. */
 a {
   text-decoration: none;
-  /* color: white; */
+  color: skyblue;
+}
+
+ul {
+  color: green;
 }
