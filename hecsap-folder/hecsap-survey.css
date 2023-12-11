@@ -1,14 +1,14 @@
 /* Page Container, wraps the contents of the web page. */
 .page-container {
-  background-color: skyblue;
+  background-color: black;
   box-sizing: border-box;
-  color: green;
+  color: skyblue;
 }
 
 /* Takes away the underline underneath the navigation links(About Us, Free HECSAP, More Support, Cast Saving Tips) */
 a {
   text-decoration: none;
-  color: black;
+  color: skyblue;
 }
 
 /* Nav bar, horizontally aligned in a single row */
@@ -25,10 +25,10 @@ a {
 
 /* Causes there to be an asterisk symbol after all input fields the user is required to fill out in the survey */
 
-.required-input:after {
+/* .required-input:after {
   content: " *";
   color: red;
-}
+} */
 
 /* Causes the top 8 label/input element pairs to be displayed in a grid, 2 columns by 4 rows */
 
@@ -74,5 +74,21 @@ a {
 /* Bolds The "Get Your HECSAP text" */
 
 .submit-button__button {
-  font-weight: 600;
+  font-weight: 700;
+}
+
+/* h2 style */
+
+h2,
+.survey-title {
+  color: green;
+}
+
+.submit-button__button {
+  background-color: skyblue;
+  color: green;
+}
+
+input[type="checkbox"] {
+  accent-color: skyblue;
 }

@@ -34,3 +34,26 @@ a {
 ul {
   color: green;
 }
+
+/* Wrapper of page content */
+
+.page-content-wrapper {
+  box-sizing: border-box;
+  /* background-color: green; */
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Should contain the image on the page into a fitted section of webpage */
+
+.image-style {
+  box-sizing: border-box;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,8 +1,8 @@
 /* Simplistic style for the page that pops up after the user submits their HECSAP Survey. */
 
 body {
-  background-color: skyblue;
-  color: rgb(0, 128, 0);
+  background-color: black;
+  color: skyblue;
   font-family: Arial, sans-serif;
 }
 
@@ -14,6 +14,17 @@ body {
 }
 
 p {
-  color: black;
+  color: green;
   font-weight: 700;
+}
+
+.back-home-button {
+  display: inline-block;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid #000;
+  border-radius: 4px;
+  background-color: skyblue;
+  color: green;
 }

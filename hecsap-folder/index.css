@@ -18,7 +18,7 @@
 
 a {
   text-decoration: none;
-  /* color: white; */
+  color: skyblue;
 }
 
 .webpage-content {
@@ -45,10 +45,13 @@ a {
 }
 
 h1,
-h2,
-p {
+h2 {
   /* background-color: gray; */
   /* padding: 1px;  */
   margin: 4px;
+  color: green;
+}
+
+p {
   color: white;
 }
