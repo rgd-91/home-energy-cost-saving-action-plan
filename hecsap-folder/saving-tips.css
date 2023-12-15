@@ -23,3 +23,48 @@ a {
   border-left: 0px;
   border-right: 0px;
 }
+
+h1 {
+  color: skyblue;
+}
+
+h2 {
+  color: green;
+}
+
+label {
+  color: skyblue;
+}
+
+.page-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+/* Apply styling to each image container */
+.image-grid div {
+  text-align: center;
+}
+
+/* Style the label for each image */
+.image-grid label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Style the images */
+.image-grid img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
