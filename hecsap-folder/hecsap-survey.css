@@ -47,6 +47,7 @@ a {
   align-items: center;
   margin: auto;
   margin-bottom: 2px;
+  font-family: "Georgia", serif;
 }
 
 /* This caused the two elements at the bottom of the survey to be grouped into a single row */
@@ -73,6 +74,7 @@ a {
 
 .submit-button__button {
   font-weight: 700;
+  font-family: "Georgia", serif;
 }
 
 /* h2 style */
@@ -90,8 +92,13 @@ h2 {
 .submit-button__button {
   background-color: skyblue;
   color: green;
+  font-family: "Georgia", serif;
 }
 
 input[type="checkbox"] {
   accent-color: skyblue;
+}
+
+.accept-conditions__label {
+  font-family: "Georgia", serif;
 }
