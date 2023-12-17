@@ -23,12 +23,10 @@ a {
   border-right: 0px;
 }
 
-/* Causes there to be an asterisk symbol after all input fields the user is required to fill out in the survey */
-
-/* .required-input:after {
-  content: " *";
-  color: red;
-} */
+.nav-bar a {
+  font-family: "Times New Roman", serif;
+  font-weight: bold;
+}
 
 /* Causes the top 8 label/input element pairs to be displayed in a grid, 2 columns by 4 rows */
 
@@ -71,7 +69,7 @@ a {
   text-align: center;
 }
 
-/* Bolds The "Get Your HECSAP text" */
+/* Makes the "Get Your HECSAP text" bold. */
 
 .submit-button__button {
   font-weight: 700;
@@ -79,9 +77,14 @@ a {
 
 /* h2 style */
 
-h2,
+h2 {
+  color: green;
+  font-family: "Arial", sans-serif;
+}
+
 .survey-title {
   color: green;
+  font-family: "Helvetica", sans-serif;
 }
 
 .submit-button__button {

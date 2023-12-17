@@ -16,6 +16,11 @@
   border-right: 0px;
 }
 
+.nav-bar a {
+  font-family: "Times New Roman", serif;
+  font-weight: bold;
+}
+
 /* styles the h1, so far, makes the text sky blue, possible idea, change font of h1 so that it's different than h2 font? */
 h1 {
   color: skyblue;
