@@ -1,18 +1,25 @@
-/* Page Container, wraps the contents of the web page. */
+/* Page Container, wraps the contents of the web page allowing for styling of the contents within the wepage such as the label text */
 .page-container {
   background-color: black;
   box-sizing: border-box;
   color: skyblue;
 }
+/* Causes there to be space on the right and left side of the survey field */
 
-/* Takes away the underline underneath the navigation links(About Us, Free HECSAP, More Support, Cast Saving Tips) */
+.form-wrapper-style {
+  margin-left: 39px;
+  margin-right: 39px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+/* Removes the underline underneath the navigation links that are there by default(About Us, Free HECSAP, More Support, Cast Saving Tips) */
 a {
   text-decoration: none;
   color: skyblue;
 }
 
-/* Nav bar, horizontally aligned in a single row */
-
+/* Causes the navigation bar to be horizontally aligned in a single row */
 .nav-bar {
   display: flex;
   justify-content: space-around;
@@ -23,13 +30,13 @@ a {
   border-right: 0px;
 }
 
+/* Styles the nav bar font */
 .nav-bar a {
   font-family: "Times New Roman", serif;
   font-weight: bold;
 }
 
 /* Causes the top 8 label/input element pairs to be displayed in a grid, 2 columns by 4 rows */
-
 .first-group-section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -37,8 +44,7 @@ a {
   gap: 10px;
 }
 
-/* causes the label to be vertically centered above the input for the first 8 label/input element pairs, and also does the same with the follow 4 label/input element pairs */
-
+/* Causes the labels to be vertically centered above the input for the first 12 label/input element pairs */
 .column-label-input,
 .row-label-input,
 .comment-section {
@@ -50,14 +56,21 @@ a {
   font-family: "Georgia", serif;
 }
 
-/* This caused the two elements at the bottom of the survey to be grouped into a single row */
+/* This styles questions 9-11 in survey  */
+.second-group-section {
+  text-align: center;
+}
+
+/* This causes the two elements at the bottom of the survey to be grouped into a single row */
 .third-group-section {
   display: flex;
   flex-direction: row;
   margin: auto;
+  padding-left: 3px;
+  padding-right: 3px;
 }
 
-/* This ceneters the bottom two elements within the survey */
+/* This centers the bottom two elements within the survey */
 .final-two-elements {
   display: flex;
   align-items: center;
@@ -70,35 +83,39 @@ a {
   text-align: center;
 }
 
-/* Makes the "Get Your HECSAP text" bold. */
-
+/* Makes the "Get Your HECSAP text" bold */
 .submit-button__button {
   font-weight: 700;
   font-family: "Georgia", serif;
 }
 
-/* h2 style */
-
+/* h2 style is like the survey title before the title */
 h2 {
   color: green;
   font-family: "Arial", sans-serif;
 }
 
+/* Styles the survey title */
 .survey-title {
   color: green;
   font-family: "Helvetica", sans-serif;
 }
 
+/* Styles the submit button */
 .submit-button__button {
   background-color: skyblue;
   color: green;
   font-family: "Georgia", serif;
 }
 
+/* Makes the check box background color skyblue to match the color theme */
 input[type="checkbox"] {
   accent-color: skyblue;
 }
 
+/* Styles the layout of the agree to terms label */
 .accept-conditions__label {
   font-family: "Georgia", serif;
+  display: inline-block;
+  width: 10em;
 }
