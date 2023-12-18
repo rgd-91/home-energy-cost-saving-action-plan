@@ -4,16 +4,20 @@
   box-sizing: border-box;
 }
 
-/* Nav bar, horizontally aligned in a single row */
+/* Give layout to everything between h1 down through all the images, gives space on right and left side of content */
+.body-style {
+  box-sizing: border-box;
+  margin-left: 30px;
+  margin-right: 30px;
+}
 
-/* Takes away the underline underneath the navigation links(About Us, Free HECSAP, More Support, Cast Saving Tips) */
+/* Takes away the underline beneath the links I used for navigation(About Us, Free HECSAP, More Support, Cast Saving Tips) */
 a {
   text-decoration: none;
   color: skyblue;
 }
 
 /* Nav bar, horizontally aligned in a single row */
-
 .nav-bar {
   display: flex;
   justify-content: space-around;
@@ -24,29 +28,34 @@ a {
   border-right: 0px;
 }
 
+/* Nav bar font style */
 .nav-bar a {
   font-family: "Times New Roman", serif;
   font-weight: bold;
 }
 
+/* h1 text layout and style */
 h1 {
-  color: skyblue;
-}
-
-h2 {
   color: green;
+  font-family: "Arial", sans-serif;
+  text-align: center;
 }
 
+/* h4 text layout and style */
+h4 {
+  color: white;
+  font-family: "Helvetica", sans-serif;
+  text-align: center;
+}
+
+/* Image label style */
 label {
   color: skyblue;
+  font-size: larger;
+  font-family: "Times New Roman", serif;
 }
 
-.page-container {
-  max-width: 1200px;
-  /* margin: 0 auto; */
-  /* padding: 20px; */
-}
-
+/* Made grid of image layout so that there are 2 rows of 3 */
 .image-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -65,11 +74,21 @@ label {
   font-weight: bold;
 }
 
-/* Style the images */
+/* Style the images grid */
 .image-grid img {
   max-width: 100%;
   height: auto;
   border: 1px solid #ddd;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* resized all images to be the same */
+.img-size {
+  max-width: 461.328px;
+  max-height: 193.016px;
+  min-width: 138.219px;
+  min-height: 72.063px;
+  width: 461.328px;
+  height: 240.547px;
 }

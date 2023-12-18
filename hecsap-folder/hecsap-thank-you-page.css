@@ -2,8 +2,8 @@
 
 body {
   background-color: black;
-  color: skyblue;
-  font-family: Arial, sans-serif;
+  color: green;
+  font-family: "Arial", sans-serif;
 }
 
 .container {
@@ -14,8 +14,9 @@ body {
 }
 
 p {
-  color: green;
+  color: skyblue;
   font-weight: 700;
+  font-family: "Helvetica", sans-serif;
 }
 
 .back-home-button {
@@ -27,4 +28,6 @@ p {
   border-radius: 4px;
   background-color: skyblue;
   color: green;
+  font-weight: bold;
+  font-family: "Times New Roman", serif;
 }
